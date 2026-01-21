@@ -162,6 +162,17 @@ nav a:hover {
     padding: 20px 50px;
 }
 
+/* TAMBAHAN GARIS IJO PADA GAME CARD (TIDAK MERUBAH GRID) */
+.game-card {
+    background: #1a1a1a;        /* Warna background sama dengan nav/specs */
+    border: 2px solid #00ffcc;  /* GARIS IJO SESUAI FOTO KEDUA */
+    border-radius: 15px;        /* Melengkung rapi */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 /* =========================================
    LIVE STREAM SECTION (KODE ASLI KAMU)
    ========================================= */
@@ -243,4 +254,4 @@ nav a:hover {
         grid-template-columns: 1fr; /* 1 kolom di HP agar lega */
     }
     hr { margin: 30px 15px; }
-}
+}   
